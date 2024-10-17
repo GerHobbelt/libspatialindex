@@ -50,7 +50,7 @@ void loop() { RUN_ALL_TESTS(); }
 #elif defined(GTEST_OS_QURT)
 // QuRT: program entry point is main, but argc/argv are unusable.
 
-GTEST_API_ int main() {
+GTEST_API_ int main(void) {
   printf("Running main() from %s\n", __FILE__);
   testing::InitGoogleTest();
   return RUN_ALL_TESTS();

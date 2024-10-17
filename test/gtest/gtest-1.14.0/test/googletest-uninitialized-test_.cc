@@ -36,4 +36,4 @@ TEST(DummyTest, Dummy) {
   // testing::InitGoogleTest() being called first.
 }
 
-int main() { return RUN_ALL_TESTS(); }
+int main(void) { return RUN_ALL_TESTS(); }

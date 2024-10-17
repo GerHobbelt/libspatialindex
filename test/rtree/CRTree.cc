@@ -33,7 +33,7 @@ void load(IndexH idx);
 void query(IndexH idx);
 void bounds(IndexH idx);
 
-int main()
+int main(void)
 {
    char* pszVersion = SIDX_Version();
    fprintf(stdout, "libspatialindex version: %s\n", pszVersion);
